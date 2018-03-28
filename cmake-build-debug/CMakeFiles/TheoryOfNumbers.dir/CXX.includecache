@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/EthanCo81/Documents/Fall2017/TheoryOfNumbers/BigNum.h
+vector
+-
+
+/Users/EthanCo81/Documents/Fall2017/TheoryOfNumbers/main.cpp
+iostream
+-
+BigNum.h
+/Users/EthanCo81/Documents/Fall2017/TheoryOfNumbers/BigNum.h
+math.h
+-
+
